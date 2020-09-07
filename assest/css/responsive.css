@@ -1,0 +1,120 @@
+@media(max-width:1023px){
+    .banner__content-left,
+    .banner__content-right,
+    .about__content-left,
+    .about__content-right
+    {
+        width: 100%;
+    }
+    .banner__content{
+        flex-wrap: wrap;
+    }
+    .banner__content-left{
+        padding-top: 150px;
+        text-align: center;
+    }
+    .banner__content-right{
+        padding-top: 10%;
+    }
+    .header__menu-button{
+        display: block;
+    }
+    .navbar__right-list{
+        position: fixed;
+        width: 100%;
+        top:0;
+        display: flex;
+        padding-top:100px;
+        flex-direction: column;
+        align-items: center;
+        left: 0;
+        bottom: 0;
+        z-index: 1000;
+        top: 80px;
+        max-height: 0px;
+        overflow: hidden;
+        padding: 0;
+        background-color: rgba(0, 0, 0, 0.9);
+        transition: 0.5s ease;
+    }
+    .navbar__right-list.navbar__right-list--active{
+        max-height: 50vh;
+    }
+    .navbar__right-link{
+        padding: 10px 0;
+        font-size: 2rem;
+    }
+    .navbar__right-button
+    {
+        display: none;
+    }
+    .about__content-right{
+        text-align: center;
+    }
+    .features__content-item,
+    .wrok__content-item,
+    .statistical__content-item
+    {
+        width: 50%;
+    }
+    .choose__left,
+    .choose__right{
+        width: 100%;
+    }
+    .statistical__item-title{
+        font-size: 3rem;
+    }
+    .statistical__item-describle{
+        font-size: 1.8rem;
+    }
+    .blog__item-wrapper{
+        width: 50%;
+        margin-bottom: 50px;
+    }
+}
+@media(max-width: 738px){
+    .banner__content-title{
+        font-size: 3.5rem;
+    }
+    .banner__content-describle{
+        font-size: 1.8rem;
+    }
+    .btn--about{
+        font-size: 1.4rem;
+        padding: 10px 20px;
+    }
+    .btn--banner{
+        padding: 14px 30px;
+    }
+    .features__content-item,
+    .wrok__content-item
+    {
+        width: 100%;
+    }
+    .choose__right-img{
+        max-width: 400px;
+    }
+    .choose__right{
+        margin-top: 30px;
+    }
+    .blog__item-wrapper{
+        width: 100%;
+        
+    }
+}
+@media(max-width:320px){
+    .btn--banner{
+        padding: 14px 25px;
+        font-size: 1.2rem;
+    }
+    .banner__content-title{
+        font-size: 3rem;
+    }
+    .banner__content-describle{
+        font-size: 1.4rem;
+    }
+    .banner__right-img{
+        max-width: 250px;
+        max-height: 300px;
+    }
+}
