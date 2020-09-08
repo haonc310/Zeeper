@@ -17,7 +17,7 @@
         padding-top: 10%;
     }
     .header__menu-button{
-        display: block;
+        display: flex;
     }
     .navbar__right-list{
         position: fixed;
