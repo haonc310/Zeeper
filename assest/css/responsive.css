@@ -99,7 +99,20 @@
     }
     .blog__item-wrapper{
         width: 100%;
-        
+    }
+    .question__content-left,
+    .question__content-right
+    {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:576px){
+    .blog__item-main__info{
+        font-size: 1.2rem;
+    }
+    .blog__item-main__info p{
+        margin-right: 6px;
     }
 }
 @media(max-width:320px){
@@ -117,4 +130,5 @@
         max-width: 250px;
         max-height: 300px;
     }
+    
 }
